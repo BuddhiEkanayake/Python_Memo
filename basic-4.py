@@ -1,7 +1,7 @@
 fruits = ['banana', 'apple', 'mango','orange']
 
-#for i in fruits:
-    #print(i)
+for i in fruits:
+    print(i)
 
 numb = ['0','1','3','4']  
 for i in numb:
