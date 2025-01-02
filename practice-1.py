@@ -11,3 +11,16 @@ if (num1 * num2) > 1000 :
     
 else:
     print(num1*num2)
+
+
+#--------Second way of doing the same thing-----------------------------------------------------------
+
+
+def produce(num1,num2) :
+    product= num1*num2
+    if product>1000:
+        return num1+num2
+    else:
+        return product
+
+print(produce(80,20))
