@@ -11,7 +11,7 @@ guess()
 
 def second_fun(first_name,last_name) :
     print(f"hello " + first_name + last_name)
-    print("How are you {first_name} {last_name}")
+    print(f"How are you {first_name} {last_name}")
 
 
-second_fun("John "," Doe")
+second_fun("John ","Doe")
